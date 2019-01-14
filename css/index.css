@@ -229,7 +229,6 @@ footer {
 
     .bottom-content {
         display: flex;
-        flex-direction: column;
     }
 }
 
@@ -273,6 +272,10 @@ footer {
         margin-top: 20px;
         padding: 0 0;
         
+    }
+
+    .bottom-content {
+        flex-direction: column;
     }
 
     .main-content .bottom-content .text-content {
